@@ -1,0 +1,229 @@
+:root {
+  --body-text-color: #434455;
+  --primary-brand-color: #4d5ae5;
+  --dark-color: #2e2f42;
+  --white-background: #ffffff;
+  --light: #f4f4fd;
+  --accent: #e7e9fc;
+  --pressed-state: #404bbf;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--body-text-color);
+  background: var(--white-background);
+}
+
+/*--------------------------HEADER------------------------*/
+
+.header {
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.navbar {
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-brand-color);
+}
+
+.logo-studio {
+  color: var(--dark-color);
+}
+
+.nav-links {
+}
+
+.nav-item {
+}
+.nav-link {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--pressed-state);
+}
+
+/*-------------------------ADRESS------------------------*/
+.contacts {
+  font-style: normal;
+}
+.contacts-list {
+}
+.contacts-item {
+}
+.contacts-link {
+  line-height: 1.5;
+  color: var(--body-text-color);
+  letter-spacing: 0.02em;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--pressed-state);
+}
+
+/*-------------------------SECTION 1------------------------*/
+.hero {
+  background: var(--dark-color);
+}
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white-background);
+}
+.button {
+  font-family: 'Roboto', sans-serif;
+  color: var(--white-background);
+  line-height: 1.5;
+  background: var(--primary-brand-color);
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  letter-spacing: 0.04em;
+}
+.button:hover,
+.button:focus {
+  background-color: var(--pressed-state);
+}
+
+/*-------------------------SECTION 2-----------------------*/
+.advantages {
+}
+.advantages-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+  color: var(--dark-color);
+}
+.advantages-list {
+}
+.advantages-item {
+}
+.advantages-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+.advantages-item-text {
+  line-height: 1.5;
+}
+
+/*-------------------------SECTION 3-----------------------*/
+.projects-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--dark-color);
+}
+.images-list {
+}
+.image-item {
+}
+
+/*-------------------------SECTION 4-----------------------*/
+.team-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark-color);
+}
+.team-section {
+  background: var(--light);
+}
+
+.images-list {
+}
+.team-member {
+  background: var(--white-background);
+}
+
+.team-member-name {
+  color: var(--dark-color);
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.team-member-role {
+  line-height: 1.5;
+}
+
+/*-------------------------FOOTER------------------------*/
+.footer {
+  background: var(--dark-color);
+}
+.footer-text {
+  line-height: 1.5;
+  color: var(--light);
+}
+.footer-logo-studio {
+  color: var(--light);
+}
+/*===================================PORTFOLIO======================================*/
+.button-section {
+}
+
+.filter-title {
+}
+.button-list {
+}
+.button-item {
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-brand-color);
+  line-height: 1.5;
+  background: var(--light);
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid var(--accent);
+  letter-spacing: 0.04em;
+}
+.button-item:hover,
+.button-item:focus {
+  background-color: var(--pressed-state);
+  color: var(--white-background);
+}
+.services-list {
+}
+.services-item {
+}
+.services-category {
+}
+.services-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--dark-color);
+  letter-spacing: 0.02em;
+}
+
+.services-category {
+  line-height: 1.5;
+
+  color: var(--body-text-color);
+  letter-spacing: 0.02em;
+}
