@@ -21,33 +21,43 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
 }
 
-ul {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
+.section {
+  width: 100%;
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
 /*--------------------------HEADER------------------------*/
 
 .header {
-  display: flex;
-  padding: 24px 156px;
+  padding: 24px 0;
 }
 
 .list {
   list-style: none;
+  padding-left: 0;
+  margin: 0;
 }
 
 .link {
   text-decoration: none;
 }
+img {
+  display: block;
+}
+.header-section {
+  display: flex;
+  align-items: center;
+}
 
 .navbar {
   display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -66,7 +76,8 @@ ul {
 
 .nav-links {
   display: flex;
-  flex-grow: 1;
+  margin-left: 76px;
+  gap: 40px;
 }
 
 .nav-item {
@@ -85,10 +96,11 @@ ul {
 /*-------------------------ADRESS------------------------*/
 .contacts {
   font-style: normal;
+  margin-left: auto;
 }
 .contacts-list {
   display: flex;
-  justify-content: flex-end;
+  gap: 40px;
 }
 .contacts-item {
 }
@@ -104,8 +116,13 @@ ul {
 }
 
 /*-------------------------SECTION 1------------------------*/
-.hero {
+.hero-section {
   background: var(--dark-color);
+  padding: 188px 316px 292px;
+}
+
+.hero {
+  padding-bottom: 120px;
 }
 .hero-title {
   font-size: 56px;
@@ -113,6 +130,8 @@ ul {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--white-background);
+  display: block;
+  max-width: 496px;
 }
 .button {
   font-family: 'Roboto', sans-serif;
@@ -123,6 +142,11 @@ ul {
   font-size: 16px;
   cursor: pointer;
   letter-spacing: 0.04em;
+  display: flex;
+  margin-top: 48px;
+  padding: 16px 32px;
+  border-radius: 4px;
+  min-width: 169px;
 }
 .button:hover,
 .button:focus {
@@ -137,8 +161,16 @@ ul {
   line-height: 1.11;
   text-transform: capitalize;
   color: var(--dark-color);
+  display: none;
 }
+.advantages-section {
+  padding-bottom: 60px;
+}
+
 .advantages-list {
+  display: flex;
+  gap: 24px;
+  width: calc((100% - 72) / 4);
 }
 .advantages-item {
 }
@@ -151,9 +183,16 @@ ul {
 }
 .advantages-item-text {
   line-height: 1.5;
+  padding-top: 8px;
 }
 
 /*-------------------------SECTION 3-----------------------*/
+.projects-section {
+  padding-top: 60px;
+}
+.projects {
+  padding-bottom: 120px;
+}
 .projects-title {
   font-size: 36px;
   line-height: 1.11;
@@ -162,11 +201,20 @@ ul {
   color: var(--dark-color);
 }
 .images-list {
+  display: flex;
+  gap: 24px;
 }
 .image-item {
+  max-width: 100%;
 }
 
 /*-------------------------SECTION 4-----------------------*/
+.team {
+  background: var(--light);
+}
+
+.team-section {
+}
 .team-title {
   font-size: 36px;
   line-height: 1.11;
@@ -174,12 +222,17 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark-color);
-}
-.team-section {
-  background: var(--light);
+  padding-top: 120px;
+  padding-bottom: 72px;
 }
 
-.images-list {
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+.person {
+  padding: 32px 16px;
+  text-align: center;
 }
 .team-member {
   background: var(--white-background);
@@ -191,6 +244,7 @@ ul {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  padding-bottom: 8px;
 }
 .team-member-role {
   line-height: 1.5;
@@ -206,6 +260,7 @@ ul {
 }
 .footer-logo-studio {
   color: var(--light);
+  display: inline-block;
 }
 /*===================================PORTFOLIO======================================*/
 .button-section {
