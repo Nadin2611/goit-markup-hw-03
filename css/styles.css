@@ -24,7 +24,7 @@ h6 {
   margin: 0;
 }
 
-.section {
+.container {
   width: 100%;
   max-width: 1158px;
   padding-left: 15px;
@@ -32,10 +32,12 @@ h6 {
   margin: 0 auto;
 }
 
+.section {
+  padding-bottom: 120px;
+}
 /*--------------------------HEADER------------------------*/
 
 .header {
-  padding: 24px 0;
 }
 
 .list {
@@ -50,7 +52,7 @@ h6 {
 img {
   display: block;
 }
-.header-section {
+.header-container {
   display: flex;
   align-items: center;
 }
@@ -78,6 +80,7 @@ img {
   display: flex;
   margin-left: 76px;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .nav-item {
@@ -116,13 +119,12 @@ img {
 }
 
 /*-------------------------SECTION 1------------------------*/
-.hero-section {
-  background: var(--dark-color);
-  padding: 188px 316px 292px;
+.hero-container {
+  padding: 188px 316px 292px 316px;
 }
 
 .hero {
-  padding-bottom: 120px;
+  background: var(--dark-color);
 }
 .hero-title {
   font-size: 56px;
@@ -130,8 +132,9 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--white-background);
-  display: block;
+  display: inline-block;
   max-width: 496px;
+  margin-bottom: 48px;
 }
 .button {
   font-family: 'Roboto', sans-serif;
@@ -142,8 +145,8 @@ img {
   font-size: 16px;
   cursor: pointer;
   letter-spacing: 0.04em;
-  display: flex;
-  margin-top: 48px;
+  display: block;
+  margin: 0 auto;
   padding: 16px 32px;
   border-radius: 4px;
   min-width: 169px;
@@ -155,24 +158,36 @@ img {
 
 /*-------------------------SECTION 2-----------------------*/
 .advantages {
+  padding-top: 120px;
 }
 .advantages-title {
   font-size: 36px;
   line-height: 1.11;
   text-transform: capitalize;
   color: var(--dark-color);
-  display: none;
 }
-.advantages-section {
-  padding-bottom: 60px;
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.advantages-container {
 }
 
 .advantages-list {
   display: flex;
   gap: 24px;
-  width: calc((100% - 72) / 4);
 }
 .advantages-item {
+  width: calc((100%-72px) / 4);
 }
 .advantages-item-title {
   font-weight: 500;
@@ -180,18 +195,17 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark-color);
+  padding-bottom: 8px;
 }
 .advantages-item-text {
   line-height: 1.5;
-  padding-top: 8px;
 }
 
 /*-------------------------SECTION 3-----------------------*/
-.projects-section {
+.projects-container {
   padding-top: 60px;
 }
 .projects {
-  padding-bottom: 120px;
 }
 .projects-title {
   font-size: 36px;
@@ -199,6 +213,7 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: var(--dark-color);
+  margin-bottom: 72px;
 }
 .images-list {
   display: flex;
@@ -213,7 +228,7 @@ img {
   background: var(--light);
 }
 
-.team-section {
+.team-container {
 }
 .team-title {
   font-size: 36px;
@@ -222,8 +237,7 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark-color);
-  padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .team-list {
@@ -253,22 +267,29 @@ img {
 /*-------------------------FOOTER------------------------*/
 .footer {
   background: var(--dark-color);
+  padding: 100px 0;
 }
 .footer-text {
   line-height: 1.5;
   color: var(--light);
+  margin-top: 16px;
+  max-width: 264px;
 }
 .footer-logo-studio {
   color: var(--light);
   display: inline-block;
 }
 /*===================================PORTFOLIO======================================*/
-.button-section {
+.button-container {
 }
 
 .filter-title {
 }
 .button-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding-top: 96px;
 }
 .button-item {
   font-family: 'Roboto', sans-serif;
@@ -289,8 +310,12 @@ img {
 .services-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  row-gap: 48px;
+  column-gap: 24px;
   width: calc((100% - 48 px) / 3);
+  margin: 0;
+  padding-top: 72px;
+  padding-bottom: 120px;
 }
 .services-item {
 }
@@ -306,7 +331,13 @@ img {
 
 .services-category {
   line-height: 1.5;
-
+  margin-top: 8px;
   color: var(--body-text-color);
   letter-spacing: 0.02em;
+}
+.services-name {
+  padding: 32px 0 32px 24px;
+  border-right: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
 }
