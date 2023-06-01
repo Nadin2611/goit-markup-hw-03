@@ -199,7 +199,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark-color);
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .advantages-item-text {
   line-height: 1.5;
@@ -302,6 +302,7 @@ img {
   justify-content: center;
   gap: 24px;
   padding-top: 96px;
+  margin-bottom: 72px;
 }
 .button-item {
   font-family: 'Roboto', sans-serif;
@@ -313,11 +314,14 @@ img {
   cursor: pointer;
   border: 1px solid var(--accent);
   letter-spacing: 0.04em;
+  padding: 12px 24px;
+  border-radius: 4px;
 }
 .button-item:hover,
 .button-item:focus {
   background-color: var(--pressed-state);
   color: var(--white-background);
+  border: 1px solid transparent;
 }
 .services-list {
   display: flex;
@@ -326,7 +330,6 @@ img {
   column-gap: 24px;
   width: calc((100% - 48 px) / 3);
   margin: 0;
-  padding-top: 72px;
   padding-bottom: 120px;
 }
 .services-item {
@@ -339,16 +342,16 @@ img {
   line-height: 1.2;
   color: var(--dark-color);
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .services-category {
   line-height: 1.5;
-  margin-top: 8px;
   color: var(--body-text-color);
   letter-spacing: 0.02em;
 }
 .services-name {
-  padding: 32px 0 32px 24px;
+  padding: 32px 16px;
   border-right: 1px solid #e7e9fc;
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
