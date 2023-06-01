@@ -287,6 +287,10 @@ img {
   color: var(--white-background);
 }
 .services-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  width: calc((100% - 48 px) / 3);
 }
 .services-item {
 }
