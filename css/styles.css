@@ -36,7 +36,8 @@ h6 {
 .section {
   padding-bottom: 120px;
 }
-
+.hero-container {
+}
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -84,6 +85,7 @@ img {
   display: flex;
   margin-left: 76px;
   gap: 40px;
+  padding: 0 15px;
 }
 
 .nav-item {
@@ -225,6 +227,7 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: var(--dark-color);
+  margin-bottom: 72px;
 }
 .images-list {
   display: flex;
@@ -248,8 +251,7 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark-color);
-  padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .team-list {
@@ -262,6 +264,8 @@ img {
 }
 .team-member {
   background: var(--white-background);
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-member-name {
@@ -270,7 +274,8 @@ img {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  padding-bottom: 8px;
+
+  margin-bottom: 8px;
 }
 .team-member-role {
   line-height: 1.5;
@@ -349,6 +354,7 @@ img {
   line-height: 1.2;
   color: var(--dark-color);
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .services-category {
