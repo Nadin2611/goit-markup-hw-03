@@ -27,8 +27,7 @@ h6 {
 .container {
   width: 100%;
   max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -40,13 +39,13 @@ h6 {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
-  padding: 24px 0;
 }
 
 .list {
   list-style: none;
   padding-left: 0;
   margin: 0;
+  padding: 24px 0;
 }
 
 .link {
