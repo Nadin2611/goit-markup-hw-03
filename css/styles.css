@@ -125,11 +125,11 @@ img {
 /*-------------------------SECTION 1------------------------*/
 .hero-container {
   background: var(--dark-color);
-  padding: 188px 316px 292px;
 }
 
 .hero {
   background: var(--dark-color);
+  padding: 120px 0;
 }
 .hero-title {
   font-size: 56px;
@@ -139,7 +139,7 @@ img {
   color: var(--white-background);
   display: block;
   max-width: 496px;
-  margin-bottom: 48px;
+  margin: 0 auto;
 }
 .button {
   font-family: 'Roboto', sans-serif;
@@ -152,7 +152,6 @@ img {
   letter-spacing: 0.04em;
   display: block;
   margin: 0 auto;
-
   padding: 16px 32px;
   border-radius: 4px;
   min-width: 169px;
@@ -239,6 +238,7 @@ img {
 /*-------------------------SECTION 4-----------------------*/
 .team {
   background: var(--light);
+  padding: 120px 0;
 }
 
 .team-container {
