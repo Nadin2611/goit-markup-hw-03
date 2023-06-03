@@ -72,11 +72,11 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-brand-color);
+  margin-right: 76px;
 }
 
 .logo-studio {
   color: var(--dark-color);
-  margin-right: 76px;
 }
 
 .nav-links {
@@ -291,6 +291,7 @@ img {
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
+  margin-right: 76px;
 }
 .footer-logo-studio {
   color: var(--light);
