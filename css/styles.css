@@ -72,16 +72,15 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-brand-color);
-  margin-right: 76px;
 }
 
 .logo-studio {
   color: var(--dark-color);
+  margin-right: 76px;
 }
 
 .nav-links {
   display: flex;
-  margin-left: 76px;
   gap: 40px;
 }
 
@@ -190,7 +189,6 @@ img {
 }
 
 .advantages-container {
-  padding-bottom: 60px;
 }
 
 .advantages-list {
@@ -211,12 +209,10 @@ img {
 }
 .advantages-item-text {
   line-height: 1.5;
-  padding-top: 8px;
 }
 
 /*-------------------------SECTION 3-----------------------*/
 .projects-container {
-  padding-top: 60px;
 }
 .projects {
   padding-bottom: 120px;
@@ -314,7 +310,6 @@ img {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-top: 96px;
   margin-bottom: 72px;
 }
 .button-item {
@@ -343,7 +338,6 @@ img {
   column-gap: 24px;
   width: calc((100% - 48 px) / 3);
   margin: 0;
-  padding-bottom: 120px;
 }
 .services-item {
 }
